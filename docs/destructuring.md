@@ -336,7 +336,7 @@ _tmp.foo.bar // 报错
 如果要将一个已经声明的变量用于解构赋值，必须非常小心。
 
 ```javascript
-// 错误的写法
+// 错误的写法----在谷歌控制台书写是正确的
 let x;
 {x} = {x: 1};
 // SyntaxError: syntax error
